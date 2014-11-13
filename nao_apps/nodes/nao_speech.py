@@ -37,7 +37,7 @@ import actionlib
 
 from dynamic_reconfigure.server import Server as ReConfServer
 import dynamic_reconfigure.client
-from naoqi_driver.cfg import naoqi_speechConfig as NodeConfig
+from naoqi_driver.cfg import NaoqiSpeechConfig as NodeConfig
 from naoqi_driver.naoqi_node import NaoqiNode
 from naoqi import (ALBroker, ALProxy, ALModule)
 
@@ -453,7 +453,7 @@ class SpeechRecognitionWrapper(ALModule):
         self.proxy.setAudioExpression( config["audio_expression"] )
         self.proxy.setVisualExpression( config["visual_expression"] )
         self.proxy.setVocabulary(
-            Util.parse_vocabulary( config["vocabulary"] ),
+            Util.parse_vocabulary( config["vocabulary"].encode('utf-8') ),
             config["word_spotting"] )
 
 
