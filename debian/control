@@ -1,0 +1,12 @@
+Source: ros-hydro-nao-description
+Section: misc
+Priority: extra
+Maintainer: Séverin Lemaignan <severin.lemaignan@epfl.ch>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-message-filters, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-tf
+Homepage: http://www.ros.org/wiki/nao_description
+Standards-Version: 3.9.2
+
+Package: ros-hydro-nao-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-filters, ros-hydro-robot-state-publisher, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-tf, ros-hydro-urdf
+Description: Description of the Nao robot model that can be used with robot_state_publisher to display the robot's state of joint angles.
