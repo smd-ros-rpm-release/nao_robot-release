@@ -1,6 +1,6 @@
 <package>
   <name>nao_bringup</name>
-  <version>0.5.1</version>
+  <version>0.5.2</version>
   
   <description>
       Launch files and scripts needed to bring ROS interfaces for Nao up into a
@@ -19,6 +19,7 @@
 
   <run_depend>nao_description</run_depend>
   <run_depend>naoqi_driver</run_depend>
+  <run_depend>naoqi_sensors</run_depend>
   <run_depend>nao_pose</run_depend>
   <run_depend>robot_state_publisher</run_depend>
   <run_depend>diagnostic_aggregator</run_depend>
