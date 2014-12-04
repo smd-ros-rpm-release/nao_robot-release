@@ -1,0 +1,29 @@
+ros-hydro-nao-apps (0.5.2-0quantal) quantal; urgency=high
+
+  * remove trailing spaces
+  * add nao_speech.launch
+  * Contributors: Kanae Kochigami, Mikael ARGUEDAS
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 03 Dec 2014 23:00:00 -0000
+
+ros-hydro-nao-apps (0.5.1-0quantal) quantal; urgency=high
+
+  * Merge pull request #2 <https://github.com/ros-naoqi/nao_robot/issues/2> from k-okada/encode_utf8
+    vocabulary must encode to utf8
+  * bugfix: missing reconfigure in naoqi_driver
+  * vocabulary must encode to utf8
+  * bugfix: python imports
+  * Contributors: Karsten Knese, Kei Okada, Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 12 Nov 2014 23:00:00 -0000
+
+ros-hydro-nao-apps (0.5.0-0quantal) quantal; urgency=high
+
+  * cleanups
+  * transfer nao_robot apps
+  * merge from nao_driver into nao_apps
+  * Contributors: Karsten Knese, Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 05 Nov 2014 23:00:00 -0000
+
+
