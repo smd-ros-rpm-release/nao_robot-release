@@ -1,0 +1,12 @@
+Source: ros-indigo-nao-bringup
+Section: misc
+Priority: extra
+Maintainer: Séverin Lemaignan <severin.lemaignan@epfl.ch>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://www.ros.org/wiki/nao_robot
+Standards-Version: 3.9.2
+
+Package: ros-indigo-nao-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-diagnostic-aggregator, ros-indigo-nao-description, ros-indigo-nao-pose, ros-indigo-naoqi-driver, ros-indigo-naoqi-sensors, ros-indigo-robot-state-publisher
+Description: Launch files and scripts needed to bring ROS interfaces for Nao up into a running state.
