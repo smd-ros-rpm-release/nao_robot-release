@@ -2,6 +2,11 @@
 Changelog for package nao_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.3 (2014-12-14)
+------------------
+* add bottom camera to nao_full.launch
+* Contributors: Kanae Kochigami
+
 0.5.2 (2014-12-04)
 ------------------
 * remove trailing spaces
