@@ -2,6 +2,11 @@
 Changelog for package nao_pose
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.3 (2014-12-14)
+------------------
+* add wakeup and rest services
+* Contributors: Kei Okada
+
 0.5.2 (2014-12-04)
 ------------------
 * remove trailing spaces
