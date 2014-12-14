@@ -2,6 +2,13 @@
 Changelog for package nao_apps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.3 (2014-12-14)
+------------------
+* check naoqi version and exit if not supported
+* add nodes/nao_alife.py launch/nao_alife.launch
+* add .launch files
+* Contributors: Kei Okada
+
 0.5.2 (2014-12-04)
 ------------------
 * remove trailing spaces
